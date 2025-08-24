@@ -4,7 +4,6 @@ import { Todos } from "./MyComponents/Todos";
 import { Footer } from "./MyComponents/Footer";
 import { AddTodo } from "./MyComponents/AddTodo";
 import React, { useState, useEffect } from "react";
-import { cleanup } from "@testing-library/react";
 
 function App() {
   let initTodo;
